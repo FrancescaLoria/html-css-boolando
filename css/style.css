@@ -6,5 +6,51 @@
     padding: 0;
 }
 
+img{
+    max-width: 100%;
+}
 
+/* header */
 
+/* /header */
+
+/* main */
+
+/* structure */
+.container{
+    width: 80%;
+    min-height: 1110px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
+
+}
+/* /structure */
+
+.photos{
+    position: relative;
+}
+
+.ph-second{
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.photos:hover .ph-second{
+    display: inline-block;
+}
+
+/* /main */
+
+/* footer */
+
+/* /fotter */
