@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body{
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
 img{
     max-width: 100%;
 }
@@ -72,6 +76,37 @@ img{
     bottom: 35px;
     left: 45px;
 }
+
+i{
+    background-color: white;
+    text-align: center;
+    padding: 2px 8px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.brand,
+.price-row{
+    font-size: 10px;
+    
+}
+
+.article-name{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.discount{
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.column:last-child .label.green{
+    left: 0;
+}
+
 
 /* /main */
 
