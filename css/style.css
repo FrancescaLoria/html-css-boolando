@@ -15,10 +15,55 @@ img{
 }
 
 /* header */
+header{
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul > li{
+    margin: 0 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+header > .links{
+    width: 40%;
+}
+
+header > .logo,
+header > .awesome{
+    width: 30%;
+}
+
+header .logo{
+    width: 13%;
+}
+
 
 /* /header */
 
 /* main */
+
+main{
+    padding-top: 100px;
+}
 
 /* structure */
 .container{
@@ -77,13 +122,17 @@ img{
     left: 45px;
 }
 
-i{
+.photos > i{
     background-color: white;
     text-align: center;
     padding: 2px 8px;
     position: absolute;
     right: 0;
     top: 5px;
+}
+
+.bio{
+    margin-bottom: 30px;
 }
 
 .brand,
@@ -106,7 +155,6 @@ i{
 .column:last-child .label.green{
     left: 0;
 }
-
 
 /* /main */
 
